@@ -21,8 +21,9 @@ int main() {
         printf("3 - Editar Clientes\n");
         printf("4 - Excluir Clientes\n");
         printf("5 - Sair\n");
+        printf("------------------------------------\n");
 
-        scanf("%d", opcao);
+        scanf("%d", &opcao);
 
         switch (opcao){
             case 1: {
@@ -30,13 +31,12 @@ int main() {
                 scanf("%s", clientes[numClientes].nome);
 
                 printf("Digite o email do cliente: \n");
-                scabf("%s", clientes[numClientes].email);
+                scanf("%s", clientes[numClientes].email);
 
                 numClientes++;
 
                 printf("Cliente adicionado com sucesso.\n");
                 break;
-
             }
             case 2:{
                 printf("Clientes cadastrados:\n");
