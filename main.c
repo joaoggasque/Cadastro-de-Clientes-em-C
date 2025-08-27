@@ -15,7 +15,7 @@ int main() {
         printf("====================================\n");
         printf("   --- CADASTRO DE CLIENTES --- \n");
         printf("====================================\n");
-        printf("sELECIONE UMA OPCAO:\n");
+        printf("SELECIONE UMA OPCAO:\n");
         printf("1 - Adicionar Cliente\n");
         printf("2 - Visualizar Cliestes Cadastrados\n");
         printf("3 - Editar Clientes\n");
